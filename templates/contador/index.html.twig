@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Plain message{% endblock %}
+
+{% block body %}
+
+    <h2>Contagem Regressiva</h2>
+    <br>Data Destino: {{ data }} </br>
+    <br>Data Atual: {{ dataAtual }}</br>
+    <h1><br>Falta {{ dataDif }} dias para o dia {{ data }}</br></h1>
+
+{% endblock %}
